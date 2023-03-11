@@ -26,7 +26,7 @@ Cpp_template
 └── .gitignore
 ```
 
-## Makefile
+### Makefile
 The makefile contains the following targets:
 ### all
 Runs the init, compile and run targets.
@@ -43,23 +43,23 @@ This target creates the bin folder.
 ### compile
 This target compiles the project.
 
-## .gitignore
+### .gitignore
 This file contains the files that should be ignored by git.
 
-## .github/workflows/build.yml
+### .github/workflows/build.yml
 This file contains the workflow for the github actions.
 
-## lib
+### lib
 This folder contains the source code of the library's that are used in the project.
 
-## src
+### src
 This folder contains the source code of the project.
 
-## src/include
+### src/include
 This folder contains the header files of the project.
 
-## CFLAGS.conf
+### CFLAGS.conf
 This file contains the CFLAGS that are used when compiling the project.
 
-## STD.conf
+### STD.conf
 This file contains the C++ standard that is used when compiling the project.
