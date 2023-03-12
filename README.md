@@ -1,7 +1,7 @@
 # Cpp Template
 [![CodeFactor](https://www.codefactor.io/repository/github/awesomelewis2007/cpp_template/badge)](https://www.codefactor.io/repository/github/awesomelewis2007/cpp_template)
 
-This is a template for C++ projects. It contains a make file and a C++ project structure.
+This is a template for C++ projects. It contains a makefile and a C++ project structure.
 
 ALl this project does is print "Hello World!" to the console.
 
