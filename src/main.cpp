@@ -7,7 +7,7 @@
 
 #include <iostream>
 
-#include "include/main.h"
+#include "main.h"
 
 /**
  * The main function of the program.

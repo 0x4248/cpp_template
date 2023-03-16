@@ -21,6 +21,8 @@ BIN = bin
 # Library files
 LIB = lib
 
+INCLUDE = include/
+
 # Output file name
 OUTPUT = $(BIN)/main
 
@@ -35,7 +37,7 @@ init:
 	mkdir bin
 
 compile:
-	$(CC) $(CFLAGS) -std=$(STD) $(SRC)/main.cpp -o $(OUTPUT) -I $(LIB)
+	$(CC) $(CFLAGS) -std=$(STD) $(SRC)/main.cpp -o $(OUTPUT) -I $(LIB) -I $(INCLUDE)
 
 run:
 	./$(OUTPUT)
