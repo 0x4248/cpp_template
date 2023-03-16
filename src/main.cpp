@@ -7,7 +7,7 @@
 
 #include <iostream>
 
-#include "main.h"
+#include "hello.h"
 
 /**
  * The main function of the program.
@@ -16,6 +16,6 @@
  * @return: The exit code of the program.
 */
 int main(int argc, char *argv[]) {
-    std::cout << hello_world << std::endl;
+    hello();
     return 0;
 }

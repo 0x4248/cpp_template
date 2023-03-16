@@ -7,4 +7,8 @@
 
 #include <iostream>
 
-std::string hello_world = "Hello World!";
+#include "hello.h"
+
+void hello(){
+    std::cout << "Hello World!" << std::endl;
+}
