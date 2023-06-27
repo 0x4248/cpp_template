@@ -1,5 +1,5 @@
 # Cpp Template
-[![CodeFactor](https://www.codefactor.io/repository/github/awesomelewis2007/cpp_template/badge)](https://www.codefactor.io/repository/github/awesomelewis2007/cpp_template)
+[![CodeFactor](https://www.codefactor.io/repository/github/lewisevans2007/cpp_template/badge)](https://www.codefactor.io/repository/github/lewisevans2007/cpp_template)
 
 This is a template for C++ projects. It contains a makefile and a C++ project structure.
 
