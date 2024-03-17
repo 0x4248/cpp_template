@@ -37,7 +37,7 @@ init:
 	mkdir bin
 
 compile:
-	$(CC) $(CFLAGS) -std=$(STD) $(SRC)/*.cpp -o $(OUTPUT) -I $(LIB) -I $(INCLUDE)
+	$(CC) $(CFLAGS) --std=$(STD) $(SRC)/*.cpp -o $(OUTPUT) -I $(LIB) -I $(INCLUDE)
 
 run:
 	./$(OUTPUT)
